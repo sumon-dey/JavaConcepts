@@ -1,0 +1,24 @@
+Runtime (Unchecked) Exception List:-
+
+ArithmeticException
+ArrayIndexOutOfBoundsException
+ArrayStoreException
+ClassCastException
+EnumConstantNotPresentException
+IllegalArgumentException
+IllegalCallerException
+IllegalMonitorStateException
+IllegalStateException
+IllegalThreadStateException
+IndexOutOfBoundsException
+LayerInstantiationException
+NegativeArraySizeException
+NullPointerException
+NumberFormatException
+SecurityException
+StringIndexOutOfBoundsException
+TypeNotPresentException
+UnsupportedOperationException
+
+
+

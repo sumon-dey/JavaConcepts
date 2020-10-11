@@ -1,0 +1,69 @@
+Byte Stream:-
+
+Abstract Classes -> InputStream and OutputStream
+
+Classes ->
+BufferedInputStream
+BufferedOutputStream
+ByteArrayInputStream
+ByteArrayOutputStream
+DataInputStream
+DataOutputStream
+FileInputStream
+FileOutputStream
+FilterInputStream
+FilterOutputStream
+InputStream
+ObjectInputStream
+ObjectOutputStream
+OutputStream
+PipedInputStream
+PipedOutputStream
+PrintStream
+PushbackInputStream
+SequenceInputStream
+
+**********************************************************************
+
+Character Stream:-
+
+Abstract Classes -> Reader and Writer
+
+Classes ->
+BufferedReader
+BufferedWriter
+CharArrayReader
+CharArrayWriter
+FileReader
+FileWriter
+FilterReader
+FilterWriter
+InputStreamReader
+LineNumberReader
+OutputStreamWriter
+PipedReader
+PipedWriter
+PushbackReader
+Reader
+StringReader
+StringWriter
+Writer
+
+**********************************************************************
+
+Pre-defined Streams:-
+
+"System" in java.lang package which contains 3 pre-defined public, static, final stream variables
+in -> standard input stream (by default, keyboard)
+out -> standard output stream (by default, console)
+err -> standard error stream (by default, console)
+
+System.in -> an object of type "InputStream" which is a byte stream (can be wrapped within a character stream)
+System.out -> an object of type "PrintStream" which is a byte stream (can be wrapped within a character stream)
+System.err -> an object of type "PrintStream" which is a byte stream (can be wrapped within a character stream)
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+******************** Collection Interfaces*********************
+Collection -> Extends Iterable interface and enables us to work with groups of objects.
+List -> Extends Collection interface to handle sequences (lists of objects).
+Queue -> Extends Collection interface to handle special types of lists in which elements are removed only from the head.
+Deque -> Extends Queue interface to handle a double-ended queue.
+Set -> Extends Collection interface to handle sets, which must contain Unique Elements.
+SortedSet -> Extends Set interface to handle sorted sets
+NavigableSet -> Extends SortedSet interface to handle retrieval of elements based on closest-match searches
+
+******************** Map Interfaces*********************
+Map
+Map.Entry
+NavigableMap
+SortedMap
+
+******************** Other Interfaces*********************
+Comparator -> defines how two objects are compared
+RandomAccess -> to indicate that a list supports efficient random access to its elements
+Iterator -> enumerate the objects within a collection
+ListIterator -> enumerate the objects within a collection
+Spliterator -> enumerate the objects within a collection

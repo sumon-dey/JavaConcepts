@@ -1,0 +1,33 @@
+******************** Collection Interface-implementing Classes *********************
+
+AbstractCollection -> Implements most of the Collection interface
+AbstractList -> Extends the "AbstractCollection" class and implements most of the "List" interface
+AbstractQueue -> Extends the "AbstractCollection" class and implements parts of the "Queue" interface
+AbstractSequentialList -> Extends the "AbstractList" class for use by a collection that uses sequential rather than random access of its elements
+LinkedList -> Implements a linked list by extending the "AbstractSequentialList" class
+ArrayList -> Implements a dynamic array by extending the "AbstractList" class
+ArrayDeque -> Implements a dynamic, double-ended queue by extending the "AbstractCollection" class and implementing the "Deque" interface
+AbstractSet -> Extends the "AbstractCollection" class and implements most of the "Set" interface
+EnumSet -> Extends the "AbstractSet" class for use with Enum elements
+HashSet -> Extends the "AbstractSet" class for use with a hash table
+LinkedHashSet -> Extends the "HashSet" class to allow insertion-order iterations
+PriorityQueue -> Extends the "AbstractQueue" class to support a priority-based queue
+TreeSet -> Extends the "AbstractSet" class and implements a set stored in a tree. 
+
+******************** Map Interface-implementing Classes *********************
+AbstractMap-> Implements most of the Map interface
+EnumMap -> Extends the "AbstractMap" class for use with enum keys
+HashMap -> Extends the "AbstractMap" class to use a hash table
+TreeMap -> Extends the "AbstractMap" class to use a tree
+WeakHashMap -> Extends the "AbstractMap" class to use a hash table with weak keys
+LinkedHashMap -> Extends the "HashMap" class to allow insertion-order iterations 
+IdentityHashMap -> Extends the "AbstractMap" class and uses reference equality when comparing documents
+ConcurrentHashMap
+
+******************** Other Legacy Classes that support Collection *********************
+Vector
+Stack 
+Hashtable
+
+
+

@@ -1,0 +1,2 @@
+This is a sample text written in the text file. 
+... and this is more text.

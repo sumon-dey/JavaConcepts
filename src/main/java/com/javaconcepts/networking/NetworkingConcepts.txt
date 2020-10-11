@@ -1,0 +1,69 @@
+Socket
+A socket identifies an endpoint in a network.
+
+Port
+A port is a numbered socket on a particular machine. A server process is said to "listen" to a port until a client connects
+to it. A server is allowed to access multiple clients connected to the same port number, although each session is unique.
+
+TCP/IP protocol
+Protocol through which socket communication takes place.
+
+IP Protocol (Internet Protocol)
+It is a low-level routing protocol that breaks data into small packets and sends them to an address across a network, which
+does not guarantee to deliver the said packets to the destination.
+
+TCP Protocol (Transmission Control Protocol)
+It is a higher-level protocol that manages to robustly string together the data packets, sorting and retransmitting them
+as necessary to reliably transmit data. It reserves the lower 1024 ports for specific protocols. e.g 21 for FTP, 23 for Telnet,
+ 25 for e-mail, 43 for whois, 80 for HTTP etc.
+
+UDP Protocol (User Datagram Protocol)
+It sits next to TCP and can be used directly to support fast, connectionless, unreliable transport of data packets.
+
+HTTP Protocol (Hyper Text Transfer Protocol)
+It is the protocol that web browsers and servers use to transfer hypertext pages and images.
+
+Working of HTTP 
+When a client requests a file from an HTTP server (the action is called "hit"), it simply sends the name of the file in a special
+format to a pre-defined port and reads back the contents of the file. The server also responds with a status code to tell the
+client whether or not the request can be fulfilled and why.
+
+Internet Address (IPv4 and IPv6)
+An Internet address is a number that uniquely identifies each computer on the Internet. IPv4 is an Internet address scheme
+which consists of 32-bit values organized as four 8-bit values. IPv6 is an Internet address scheme which consists of 128-bit 
+values organized as eight 16-bit values.
+
+Domain Name
+It is the name of an Internet address which describes a machine's location in a namespace e.g. www.github.com is in the
+"com" top-level domain, it is called "github" and "www" identifies the server for web requests.
+
+DNS (Domain Name Service)
+It maps an Internet domain name to an IP address. This enables us to work with domain names, but the Internet operates
+on the IP addresses.
+
+Web
+A loose collection of higher-level protocols and file formats, all unified in a web browser
+
+URL (Uniform Resource Locator)
+It provides a reasonably intelligible form to uniquely identify or address information on the Internet. The web browsers use 
+them to identify information on the web. Within Java's network class library, the "URL" class provides a simple, concise API
+to access information across the internet using URLs. 
+
+URL Specification
+A URL specification is based on 4 components:-
+1) The protocol to use, separated from the rest of the locator by a colon (:). Common protocols are http, FTP, gopher and file.
+2) The host name or IP address of the host to use (delimited on the left by double forward slashes // and on the right side
+      by a single forward slash (/) or optionally a colon (:))
+3) The port number is an optional parameter (delimited on the left from the host name by a colon (:) and on the right side
+     by a single forward slash (/)). It defaults to port 80, which is the pre-defined HTTP port and hence ":80" is redundant)
+4) The actual file path
+
+Java supports both TCP/IP and UDP protocol families. It supports TCP/IP by extending the already established stream I/O
+interface and by adding the features required to build I/O objects across the network reliably. UDP supports a simpler and 
+faster point-to-point datagram oriented model.
+
+
+
+
+
+ 

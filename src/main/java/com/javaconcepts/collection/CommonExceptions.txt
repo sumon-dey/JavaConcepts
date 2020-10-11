@@ -1,0 +1,6 @@
+
+UnsupportedOperationException -> If a collection cannot be modified
+ClassCastException ->  When one object is incompatible to another e.g. when trying to add an incompatible object to a collection
+NullPointerException -> It an attempt is made to store a null object and null elements are not allowed in the collection
+IllegalArgumentException -> If an invalid argument is used
+IllegalStateException -> If an attempt is made to add an element to a fixed-length collection that is full

@@ -1,0 +1,9 @@
+{
+ "name":"Sam",
+ "age":30,
+ "location":"India",
+ "hobby":"Testing",
+ "passion":true,
+ "phonenumbers":[12345678,87654321],
+ "address":{"Address1":"Pune","Address2":"Kolkata"}
+}
