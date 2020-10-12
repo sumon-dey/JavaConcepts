@@ -23,7 +23,10 @@ public class DataTypesAndLiterals {
 
 	private static void integerDataTypes() {
 		/*
-		 * Integers: They are whole valued signed numbers (positive and negative)
+		 * Integers: They are whole valued signed numbers (positive and negative). The
+		 * Integer literals can be in the form of decimal(Base 10, e.g.1,2,3),
+		 * octal(Base 8, e.g. 07,02), Binary(e.g. OB1010) and Hexadecimal (Base 16, e.g.
+		 * 0A0F).
 		 */
 
 		/*
@@ -56,6 +59,11 @@ public class DataTypesAndLiterals {
 		 * The data types "byte", "short" and "char" are promoted to "int" when an
 		 * expression is evaluated and arithmetic operations can be performed on that.
 		 */
+		/*
+		 * We can use underscores in the literals. This helps us to read large literals.
+		 * During compilation, the underscores are ignored. They cannot be used at the
+		 * beginning or at the end of the literals, but can be used in-between.
+		 */
 		int myIntValue1 = 37728892;
 		int myIntValue2 = 123_456_789; // Integer literal using underscores
 		int myIntValue3 = 123__456__789; // Integer literal using underscores
@@ -78,7 +86,8 @@ public class DataTypesAndLiterals {
 
 	private static void floatingPointDataTypes() {
 		/*
-		 * Floating-Point Numbers: They are Real Numbers with Fractional Precisions
+		 * Floating-Point Numbers: They are Real Numbers with Fractional Precisions.
+		 * They can be expressed in either "Standard Notation" or "Scientific Notation".
 		 */
 
 		/*
@@ -92,8 +101,18 @@ public class DataTypesAndLiterals {
 		 * decimal digits, typically used when we need a fractional component but don't
 		 * require a larger degree of precision.
 		 */
-		float myFloatValue1 = 24.346436F;
+
+		/*
+		 * We can use underscores in the literals. This helps us to read large literals.
+		 * During compilation, the underscores are ignored. They cannot be used at the
+		 * beginning or at the end of the literals, but can be used in-between.
+		 */
+		float myFloatValue1 = 24.346436F; // Standard Notation
+		float myFloatValue2 = 3.24E12F; // Scientific Notation
+		float myFloatValue3 = 0X31.3P21F; // In Hexadecimal form
 		System.out.println("myFloatValue1: " + myFloatValue1);
+		System.out.println("myFloatValue2: " + myFloatValue2);
+		System.out.println("myFloatValue3: " + myFloatValue3);
 		System.out.println("*********************************************");
 
 		/*
@@ -134,8 +153,8 @@ public class DataTypesAndLiterals {
 		 * chars)
 		 */
 		char myChar1 = 's';
-		char myChar2 = '\u00A9'; // hexadecimal notation of Unicode
-		char myChar3 = '\141'; // octal notation of Unicode
+		char myChar2 = '\u00A9'; // "char" literal using hexadecimal notation of Unicode
+		char myChar3 = '\141'; // "char" literal using octal notation of Unicode
 		char myChar4 = 88; // Unicode or ASCII value for X
 		System.out.println("myChar1 + myChar2 = : " + (myChar1 + myChar2));
 		/*
