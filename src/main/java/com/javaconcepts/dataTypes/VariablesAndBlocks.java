@@ -11,9 +11,10 @@ public class VariablesAndBlocks {
 	 * A Java Variable is the name of a reserved area allocated in memory to hold
 	 * the value while the Java program is being executed. Java variables are of 3
 	 * types - 1) Instance (Member) Variables 2) Static (Class) Variables 3) Local
-	 * Variables. A variable is defined by the combination of an identifier, a type
-	 * and an optional initializer. All variables have a "scope" which defines their
-	 * lifetime and visibility.
+	 * Variables. A variable is defined by the combination of a type (Primitive Data
+	 * Type, Class or Interface), an identifier (variable name) and an optional
+	 * initializer. All variables have a "scope" (defined by a block with curly
+	 * braces) which defines their lifetime and visibility.
 	 */
 	private static int heightOfPerson = 173; // static or class variable
 	private int weightOfPerson; // instance or member variable

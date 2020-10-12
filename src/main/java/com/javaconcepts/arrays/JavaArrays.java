@@ -1,32 +1,41 @@
-/*Java Arrays*/
 package com.javaconcepts.arrays;
 
 import java.util.Arrays;
 
+/**
+ * Java Arrays
+ * 
+ * "Array" in Java is a type of data structure that can store elements of
+ * similar data types (primitive or non- primitive). It is a group of like-typed
+ * variables that are referred to by a common name. Arrays in java are
+ * essentially objects and they are dynamically allocated. Arrays of any data
+ * type can be created in one or more dimensions. "Index" is used to access any
+ * specific element in an array.
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class JavaArrays {
-	/*
-	 * "Arrays" in Java is a type of data structure that can store elements of
-	 * similar data types (primitive or non- primitive). Arrays in java are
-	 * objects.
-	 */
 	public static void main(String[] args) {
+
 		/* Four ways to initialize an array */
-		initializeArray1();
-		initializeArray2();
-		initializeArray3();
-		initializeArray4();
+		firstWayToInitializeArray();
+		secondWayToInitializeArray();
+		thirdWayToInitializeArray();
+		fourthWayToInitializeArray();
+
 		/*
-		 * Multidimensional arrays are "arrays of arrays" with each element of
-		 * the multidimensional array holding the reference of another array.
+		 * Multidimensional arrays are "arrays of arrays" with each element of the
+		 * multidimensional array holding the reference of another array.
 		 */
-		array2DExample1();
-		array2DExample2();
+		firstArray2DExample();
+		secondArray2DExample();
 		array3DExample();
 		pyramid();
 		dynamicDimensionAllocation();
 	}
 
-	private static void initializeArray1() {
+	private static void firstWayToInitializeArray() {
 		String[] daysInWeek = new String[7];
 		daysInWeek[0] = "Sunday";
 		daysInWeek[1] = "Monday";
@@ -41,9 +50,11 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	private static void initializeArray2() {
-		// An array initializer is a list of comma-separated expressions
-		// surrounded by curly braces
+	private static void secondWayToInitializeArray() {
+		/*
+		 * An array initializer is a list of comma-separated expressions surrounded by
+		 * curly braces.
+		 */
 		String[] myFriends = { "Sam", "Harry", "Tom", "Richard", "Peter", "Mike" };
 		System.out.println(Arrays.toString(myFriends));
 		System.out.println(myFriends.getClass());
@@ -51,7 +62,7 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	private static void initializeArray3() {
+	private static void thirdWayToInitializeArray() {
 		double[] studentHeights = new double[] { 166.2, 182.0, 173.4, 175.6, 168.9, 190.2 };
 		System.out.println(Arrays.toString(studentHeights));
 		System.out.println(studentHeights.getClass());
@@ -59,7 +70,7 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	private static void initializeArray4() {
+	private static void fourthWayToInitializeArray() {
 		int myNumberTable[] = new int[9];
 		for (int counter = 0; counter < myNumberTable.length; counter++) {
 			myNumberTable[counter] = counter * 2;
@@ -68,11 +79,9 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	// MultiDimensional Arrays
-	private static void array2DExample1() {
-		/*
-		 * Data is stored in row and column-based index (in matrix form).
-		 */
+	/* MultiDimensional Array - Example1 (with 2D Array) */
+	private static void firstArray2DExample() {
+		// Data is stored in row and column-based index (in matrix form)
 		int[][] my2DArray = { { 12, 4, 6 }, { 66, 33, 2 }, { 6, 1, 5 } };
 		for (int row = 0; row < my2DArray.length; row++) {
 			for (int column = 0; column < my2DArray.length; column++) {
@@ -83,7 +92,8 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	private static void array2DExample2() {
+	/* MultiDimensional Array - Example2 (with 2D Array) */
+	private static void secondArray2DExample() {
 		int[][] my2DArray = new int[4][5];
 		int i, j, k = 0;
 		for (i = 0; i < 4; i++) {
@@ -101,8 +111,9 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
+	/* MultiDimensional Array - Example3 (with 3D Array) */
 	private static void array3DExample() {
-		/* Store */
+		/* Store Data */
 		int[][][] my3DIntArray = new int[3][4][2];
 		int x, y, z, num = 1;
 		for (x = 0; x < 3; x++) {
@@ -113,7 +124,7 @@ public class JavaArrays {
 				}
 			}
 		}
-		/* Display */
+		/* Display Data */
 		for (x = 0; x < 3; x++) {
 			for (y = 0; y < 4; y++) {
 				for (z = 0; z < 2; z++) {
@@ -126,21 +137,22 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
+	/* Pyramid Pattern using Array */
 	private static void pyramid() {
 		/* Outer loop to handle number of rows (n in this case) */
 		int n = 8;
 		for (int i = 0; i < n; i++) {
 			/*
-			 * Inner loop to handle number spaces (values can be changed
-			 * according to requirement)
+			 * Inner loop to handle number spaces (values can be changed according to
+			 * requirement)
 			 */
 			for (int j = n - i; j > 1; j--) {
 				// printing spaces
 				System.out.print(" ");
 			}
 			/*
-			 * Inner loop to handle number of columns (values change according
-			 * to outer loop)
+			 * Inner loop to handle number of columns (values change according to outer
+			 * loop)
 			 */
 			for (int j = 0; j <= i; j++) {
 				System.out.print("* ");
@@ -150,8 +162,10 @@ public class JavaArrays {
 		System.out.println("***************************************************************");
 	}
 
-	// array capacity allocated dynamically for the second dimension in a 2D
-	// array
+	/*
+	 * In the below code, Array capacity allocated dynamically for the second
+	 * dimension in a 2D array
+	 */
 	private static void dynamicDimensionAllocation() {
 		int[][] myDynamicArray = new int[4][];
 		myDynamicArray[0] = new int[1];
