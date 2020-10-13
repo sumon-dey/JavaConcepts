@@ -1,6 +1,6 @@
 ## JavaConcepts
 
-[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103 "Open Source Love")]
+![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103 "Open Source Love")
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge "Apache License")][license]
 
 ### Usage :running:
@@ -8,12 +8,12 @@
 ### Introduction:
 This is a repository consisting of code and important information on most of the Core Java Language Features and Standard Class Libraries, ranging from basic data types to advanced topics. 
 
----
+***
 
 ### Supported JDK Version
 The Java features upto JDK9 have been covered. Preferred JDK versions to use - **_JDK8_** or **_JDK9_**.
 
----
+***
 
 ### Concepts Covered and Recommended Study Sequence
 * Keywords
@@ -53,7 +53,7 @@ The Java features upto JDK9 have been covered. Preferred JDK versions to use - *
 * Utilities
 * JavaFX
 
----
+***
 
 ### Example
 `for` loop in Java
@@ -68,7 +68,7 @@ void forLoop() {
 		System.out.println("***************************************************************");
 	}
 ```
----
+***
 
 ### Setup & Tools
 * Gradle
@@ -78,7 +78,7 @@ void forLoop() {
     * JAVA_HOME: Pointing to the Java SDK folder\bin
     * GRADLE_HOME: Pointing to Gradle directory\bin.
 
----
+***
 	
 ### Getting Started
 ```sh
@@ -87,13 +87,13 @@ $ cd
 $ import project from Eclipse as a gradle project
 $ gradle clean build
 ```
----
+***
 
 ### Built With
 
 * [Gradle](https://gradle.org/) - Dependency Management
 
----
+***
 
 ### Authors
 
