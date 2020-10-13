@@ -16,7 +16,7 @@ The Java features upto JDK9 have been covered. Preferred JDK versions to use - *
 
 ***
 
-### Concepts Covered and Recommended Study Sequence
+###  :green_book: Concepts Covered and Recommended Study Sequence
 * Keywords
 * DataTypes
 * Arguments
@@ -73,10 +73,10 @@ void forLoop() {
 
 ### Setup & Tools
 * Gradle
-* Java SDK
-* Eclipse
+* JDK (Java Development Kit)
+* Eclipse (or any other Java IDE)
 * Set Environment variables      
-    * JAVA_HOME: Pointing to the Java SDK folder\bin
+    * JAVA_HOME: Pointing to the JDK folder\bin
     * GRADLE_HOME: Pointing to Gradle directory\bin.
 
 ***
