@@ -4,19 +4,17 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge "Apache License")][license]
 
-### Usage :running:
-
-### Introduction:
+###  :earth_asia: Introduction
 This is a repository consisting of code and important information on most of the Core Java Language Features and Standard Class Libraries, ranging from basic data types to advanced topics. 
 
 ***
 
-### Supported JDK Version
+###  :computer: Supported JDK Version
 The Java features upto JDK9 have been covered. Preferred JDK versions to use - **_JDK8_** or **_JDK9_**.
 
 ***
 
-###  :green_book: Concepts Covered and Recommended Study Sequence
+###  :books: Concepts Covered and Recommended Study Sequence
 * Keywords
 * DataTypes
 * Arguments
@@ -56,7 +54,7 @@ The Java features upto JDK9 have been covered. Preferred JDK versions to use - *
 
 ***
 
-### Example
+###  :loop: Example
 `for` loop in Java
 ```java
 void forLoop() {
@@ -71,7 +69,7 @@ void forLoop() {
 ```
 ***
 
-### Setup & Tools
+###  :nut_and_bolt: :wrench: Setup & Tools
 * Gradle
 * JDK (Java Development Kit)
 * Eclipse (or any other Java IDE)
@@ -81,7 +79,7 @@ void forLoop() {
 
 ***
 	
-### Getting Started
+### :running: Getting Started
 ```sh
 $ git clone 
 $ cd 
@@ -90,13 +88,13 @@ $ gradle clean build
 ```
 ***
 
-### Built With
+### :nut_and_bolt: :wrench: Built With
 
 * [Gradle](https://gradle.org/) - Dependency Management
 
 ***
 
-### Authors
+### :pencil: Author
 
 * **Sumon Dey** - *Initial work* - [sumon-dey](https://github.com/sumon-dey "Sumon Dey") 
 
