@@ -69,7 +69,7 @@ void forLoop() {
 ```
 ***
 
-###  :nut_and_bolt: :wrench: Setup & Tools
+###  :wrench: Setup & Tools
 * Gradle
 * JDK (Java Development Kit)
 * Eclipse (or any other Java IDE)
@@ -79,7 +79,7 @@ void forLoop() {
 
 ***
 	
-### :running: Getting Started
+###  :running: Getting Started
 ```sh
 $ git clone 
 $ cd 
@@ -88,13 +88,13 @@ $ gradle clean build
 ```
 ***
 
-### :nut_and_bolt: :wrench: Built With
+###  :wrench: Built With
 
 * [Gradle](https://gradle.org/) - Dependency Management
 
 ***
 
-### :pencil: Author
+###  :pencil: Author
 
 * **Sumon Dey** - *Initial work* - [sumon-dey](https://github.com/sumon-dey "Sumon Dey") 
 
