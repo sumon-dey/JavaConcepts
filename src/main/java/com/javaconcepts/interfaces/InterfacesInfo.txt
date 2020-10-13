@@ -1,0 +1,23 @@
+1) An interface in Java is a mechanism to achieve abstraction. Using the keyword "interface", we
+   can fully abstract a class' interface from its implementation. Hence, using interface, we can
+   specify what a class "must" do (declaration). 
+   
+2) Remember that the keyword "interface" is also a reference data type in Java.
+
+3) Interfaces have methods but they don't have "instance/member" variables. The variables that
+   can be declared inside an interface are implicitly "public", "final" and "static" and must
+   be initialized, but cannot be changed by the implementing classes.
+
+4) 1 interface can be implemented by multiple classes.
+   1 class can implement multiple interfaces.
+   
+5) Interfaces are designed to support "Dynamic Method Resolution" at runtime.
+
+6) The access modifiers for interfaces can be "default" or "public". 
+
+7) Interfaces can consist of both abstract and non-abstract(known as "default") methods.
+
+8) With the introduction of JDK8, "default method (method implementation)" and "static interface
+   methods" have also been introduced.
+   
+9) JDK9 has introduced "private methods" inside an interface.
