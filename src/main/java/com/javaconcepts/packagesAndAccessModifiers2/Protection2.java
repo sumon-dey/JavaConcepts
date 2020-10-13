@@ -10,8 +10,8 @@ public class Protection2 extends com.javaconcepts.packagesAndAccessModifiers1.Pr
 		// This will throw compile error since the variable pri_n is private to
 		// the class Derived
 		// System.out.println("pri_n = " + pri_n);
-		System.out.println("pro_n = " + pro_n);
-		System.out.println("pub_n = " + pub_n);
+		System.out.println("protected_n = " + protected_n);
+		System.out.println("public_n = " + public_n);
 	}
 
 }

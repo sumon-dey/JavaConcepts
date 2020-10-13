@@ -1,0 +1,40 @@
+1) In Java, "package" is a mechanism for naming control and visibility control of the classes
+and its members. Java uses File System directories to store packages.
+
+2) General form of package:
+package <packageName>
+
+3) General form of multilevel packages:
+package <packageName1>.<packageName2>.<packageName3>
+
+4) Packages act as containers for classes and other sub-packages.
+   Classes act as containers for data and code.
+   
+5) Access Modifiers:
+   Classes, Interfaces and the members inside them can have access modifiers.
+   Access modifiers define their scope, visibility and accessibility.
+   4 types of Access Modifiers are there for the members:
+   1) private
+   2) default
+   3) protected
+   4) public
+
+6) Anything declared as "public" can be accessed from any class and any package.
+
+7) Anything declared as "private" cannot be accessed outside of the class.
+
+8) With "default" access modifier, the members are visible to the subclasses as well as to
+   other classes in the same package.
+   
+9) With "protected" access modifier, the members can be accessed by the classes that subclass
+   their class directly in other packages. They remain visible to the subclasses as well as 
+   to other classes in the same package.
+   
+10) Since classes within packages must be fully qualified with their package name or names, it 
+    could become tedious to type in the long dot-separated package path name for every class
+    we want to use. For this reason, Java includes the "import" statement to bring certain classes,
+    or entire packages into visibility. Once imported, a class can be referred to directly, using
+    only its name. The "import" statement should be placed exactly after the package declaration
+    and before the "class" declaration. We can use "*" with the import statement to make the
+    compiler import the entire package. 
+

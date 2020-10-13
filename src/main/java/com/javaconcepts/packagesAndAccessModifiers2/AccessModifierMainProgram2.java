@@ -1,6 +1,6 @@
 package com.javaconcepts.packagesAndAccessModifiers2;
 
-public class Test {
+public class AccessModifierMainProgram2 {
 
 	public static void main(String[] args) {
 		Protection2 protection2 = new Protection2();
