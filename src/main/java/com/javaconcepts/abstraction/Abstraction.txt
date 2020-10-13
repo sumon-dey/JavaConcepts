@@ -1,0 +1,21 @@
+1) In layman terms, "Abstraction" is the quality of dealing with ideas rather than the events. 
+   In Java or in Object-oriented programming in general, "Abstraction" is the process of hiding 
+   certain internal details and showing only the essential information/functionality to the user.
+   
+2) Example: When you ride a bicycle or bike, you use the brakes and know how to drive them,
+   but you don't know or care about the internal processing of what is happening inside 
+   the vehicles.
+   
+3) Abstraction lets us focus on "what" the object does instead of "how" it does it.
+   
+4) Abstraction can be achieved with either the "Abstract classes" or "Interfaces" in Java.
+
+5) Abstract Classes:
+   A class which is declared as "abstract" is known as an abstract class. 
+   It can have abstract and non-abstract methods.
+   An abstract method is a method which has declaration, but no implementation body inside.  
+   The class needs to be extended and its abstract method must be implemented by any of its subclasses. 
+   The cannot be instantiated but can have constructors or static/final methods.
+   If a class has at least one abstract method, then the class must be declared "abstract".
+   To use an abstract class, you have to inherit it from another class, provide implementations to the
+   abstract methods in it.

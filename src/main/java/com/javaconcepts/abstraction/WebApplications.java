@@ -1,6 +1,6 @@
 package com.javaconcepts.abstraction;
 
-public class WebApplications implements IApplications {
+public class WebApplications implements IApplicationSpecification {
 
 	@Override
 	public void deviceRequirement() {

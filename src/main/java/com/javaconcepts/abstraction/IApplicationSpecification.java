@@ -1,6 +1,6 @@
 package com.javaconcepts.abstraction;
 
-public interface IApplications {
+public interface IApplicationSpecification {
 
 	void deviceRequirement();
 
