@@ -1,6 +1,11 @@
-/*Constructor Overloading*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Constructor Overloading
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class NewBankA {
 
 	private String customerName;

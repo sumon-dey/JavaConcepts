@@ -8,8 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * This class converts Java object to JSON and stores in a JSON file
  * 
  * @author Sumon Dey
- * @version 1.0
- * @since 25/07/2019
+ *
  *
  */
 public class JavaToJSONConversion {

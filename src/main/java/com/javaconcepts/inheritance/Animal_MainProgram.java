@@ -1,7 +1,6 @@
-/*Inheritance*/
 package com.javaconcepts.inheritance;
 
-public class AnimalTest {
+public class Animal_MainProgram {
 
 	public static void main(String[] args) {
 		Animal genericAnimal = new Animal("SpeciesX", 1, 1, 30);

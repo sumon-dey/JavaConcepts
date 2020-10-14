@@ -1,4 +1,3 @@
-/*Encapsulation*/
 package com.javaconcepts.encapsulation;
 
 public class PlayerLevel1 {

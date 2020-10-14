@@ -1,0 +1,49 @@
+1) Annotations are Java features that enables us to embed supplemental information
+  into a source file. 
+  
+2) All annotation automatically extend the "Annotation" interface. 
+
+3) Annotations can be applied to classes, methods, fields, parameters
+  and enum constants. Even an annotation can annotated. 
+  
+4) A "Marker Annotation" is a special kind of annotation containing no members.
+   A "Single Member Annotation" contains only one member.
+   A "Type Annotation" enables tools to perform additional checks on code to help prevent errors. It
+   must include ElementType.TYPE_USE as a target.
+   A "Repeating Annotation" is an annotation that can be repeated on the same element and it is annotated
+   with the "@Repeatable" annotation.
+  
+5) Java Build-in Annotations (From java.lang.annotation) are:- 
+   @Retention (specifies the Retention policy), 
+   @Documented (marker annotation which tells a tool that an annotation is to be documented), 
+   @Target (specifies the type of items to which an annotation can be applied), 
+   @Inherited (marker annotation, can be used only on another annotation declaration), 
+   @Repeatable, 
+   @Native (From java.lang), 
+   @Override (marker annotation, can be used only on methods), 
+   @Deprecated (indicates that a declaration is obsolete and not recommended for use), 
+   @SuppressWarnings (specifies that one or more warnings, that might be issued by the compiler, are to be suppressed), 
+   @FunctionalInterface (marker annotation designed for use on interfaces),
+   @SafeVarargs (marker annotation that can be applied to methods and constructors)
+   
+6) A Retention Policy determines at what point an annotation is discarded. Java defines 3 such policies
+   encapsulated within the java.lang.annotation.RetentionPolicy enum. Those are "SOURCE", "CLASS" and "RUNTIME".
+  
+7) Various Annotation Element Types and where they can be applied to:
+   ANNOTATION_TYPE -> another annotation
+   CONSTRUCTOR -> constructor
+   FIELD -> field
+   LOCAL_VARIABLE -> local variable
+   METHOD -> method
+   MODULE -> module
+   PACKAGE -> package
+   PARAMETER -> parameter
+   TYPE -> class, interface or enumeration
+   TYPE_PARAMETER -> type parameter
+   TYPE_USE -> type use
+   
+8) Annotations cannot be Generic, that is, they cannot take Type Parameters.
+
+9) Annotation methods cannot specify a "throws" clause.
+   
+   

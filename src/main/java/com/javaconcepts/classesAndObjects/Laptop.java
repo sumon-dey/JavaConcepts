@@ -1,31 +1,36 @@
-/*POJO (Plain Old Java Object) class and Access Modifiers*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * POJO (Plain Old Java Object) class and Access Modifiers
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class Laptop {
 	/*
-	 * Access of "private" access modifiers is restricted to the class level and
-	 * is not accessible beyond that.
+	 * Access of "private" access modifiers is restricted to the class level and is
+	 * not accessible beyond that.
 	 */
 	private String manufacturer;
 	private String color;
 	private double displaySize;
 	private int memory;
 	/*
-	 * If access modifier is "protected" then the access level is unrestricted
-	 * to all the classes within the same package and also to the classes which
-	 * are subclasses to this class, and outside of this package.
+	 * If access modifier is "protected" then the access level is unrestricted to
+	 * all the classes within the same package and also to the classes which are
+	 * subclasses to this class, and outside of this package.
 	 */
 	protected int batteryLife;
 	/*
-	 * If access modifier is not explicitly specified, then it is considered as
-	 * a "default" access modifier and the access level is within the package
-	 * only and not beyond that.
+	 * If access modifier is not explicitly specified, then it is considered as a
+	 * "default" access modifier and the access level is within the package only and
+	 * not beyond that.
 	 */
 	double weight;
 
 	/*
-	 * Access of "public" access modifiers is unrestricted and is accessible in
-	 * this project as well as in other projects.
+	 * Access of "public" access modifiers is unrestricted and is accessible in this
+	 * project as well as in other projects.
 	 */
 	public Laptop(String manufacturer, String color, double displaySize, int memory, int batteryLife, double weight) {
 		/* The keyword "this" refers to the current object */

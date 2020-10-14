@@ -1,11 +1,9 @@
 package com.javaconcepts.dataFormats;
 
 /**
- * This is a POJO class
+ * This is a POJO (Plain Old Java Object) class
  * 
  * @author Sumon Dey
- * @version 1.0
- * @since 25/7/2019
  *
  */
 public class Person {

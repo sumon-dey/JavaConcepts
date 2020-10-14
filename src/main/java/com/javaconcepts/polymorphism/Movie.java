@@ -1,4 +1,3 @@
-/*Polymorphism*/
 package com.javaconcepts.polymorphism;
 
 public class Movie {

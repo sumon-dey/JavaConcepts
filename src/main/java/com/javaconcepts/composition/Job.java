@@ -1,4 +1,3 @@
-/*Composition*/
 package com.javaconcepts.composition;
 
 public class Job {

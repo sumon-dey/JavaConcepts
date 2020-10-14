@@ -1,4 +1,3 @@
-/*Repeating Annotation - An annotation can be repeated on the same element with the help of the @Repeated annotation*/
 package com.javaconcepts.annotation;
 
 import java.lang.annotation.Annotation;
@@ -7,6 +6,13 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
 
+/**
+ * Repeating Annotation - An annotation can be repeated on the same element with
+ * the help of the @Repeated annotation.
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class RepeatingAnnotations {
 
 	public static void main(String[] args) {

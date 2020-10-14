@@ -1,6 +1,11 @@
-/*Dynamic Method Dispatch with Method Overriding (Runtime Polymorphism)*/
 package com.javaconcepts.inheritance;
 
+/**
+ * Dynamic Method Dispatch with Method Overriding (Runtime Polymorphism)
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class DynamicMethodDispatch {
 
 	public static void main(String[] args) {

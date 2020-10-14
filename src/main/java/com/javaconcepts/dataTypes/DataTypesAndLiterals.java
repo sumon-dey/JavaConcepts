@@ -1,7 +1,12 @@
 package com.javaconcepts.dataTypes;
 
 /**
- * Primitive Data Types or Simple Data Types
+ * Primitive Data Types or Simple Data Types:
+ * 
+ * The primitive data types in java can be classified into Integers (byte,
+ * short, int, long) Floating-Point Numbers (float, double), Characters (char)
+ * and Boolean (boolean). Though Java is object-oriented, primitive data types
+ * are not object-oriented.
  * 
  * @author Sumon Dey
  *
@@ -9,12 +14,6 @@ package com.javaconcepts.dataTypes;
 public class DataTypesAndLiterals {
 
 	public static void main(String[] args) {
-		/*
-		 * The primitive data types in java can be classified into Integers (byte,
-		 * short, int, long) Floating-Point Numbers (float, double), Characters (char)
-		 * and Boolean (boolean). Though Java is object-oriented, primitive data types
-		 * are not object-oriented.
-		 */
 		integerDataTypes();
 		floatingPointDataTypes();
 		characterDataTypes();

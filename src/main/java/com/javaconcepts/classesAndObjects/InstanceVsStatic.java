@@ -1,7 +1,13 @@
-/*Instance vs Static Methods Demo */
-/*Instance vs Static Variables Demo*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Instance vs Static Methods Demo
+ * 
+ * Instance vs Static Variables Demo
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class InstanceVsStatic {
 	private static int staticNum;
 	private static String staticName;

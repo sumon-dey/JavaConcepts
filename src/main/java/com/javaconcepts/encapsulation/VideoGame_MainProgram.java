@@ -1,7 +1,17 @@
-/*Encapsulation*/
 package com.javaconcepts.encapsulation;
 
-public class VideoGame {
+/**
+ * Encapsulation:
+ * 
+ * Encapsulation is a mechanism that binds together code and data and keeps them
+ * safe from outside access, intereference and misuse. It acts like a protective
+ * wrapper to prevent the code and data from being accessed by some other code
+ * defined outside the wrapper.
+ * 
+ * @author Sumon Dey
+ *
+ */
+public class VideoGame_MainProgram {
 
 	public static void main(String[] args) {
 		/* Without Encapsulation */

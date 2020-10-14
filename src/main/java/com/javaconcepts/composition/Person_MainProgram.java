@@ -1,10 +1,17 @@
-/*Composition*/
 package com.javaconcepts.composition;
 
-/*Composition is a design technique to implement HAS-A relationship in Java classes.
- * It allows us to model objects that are made up of other objects. The object which is present in
- * another object gets destroyed too when the other object gets destroyed.*/
-public class Person {
+/**
+ * Composition:
+ * 
+ * Composition is a design technique to implement HAS-A relationship in Java
+ * classes. It allows us to model objects that are made up of other objects. The
+ * object which is present in another object gets destroyed too when the other
+ * object gets destroyed.
+ * 
+ * @author Sumon Dey
+ *
+ */
+public class Person_MainProgram {
 	private String name;
 	private Job job;
 	private Family family;
@@ -14,8 +21,8 @@ public class Person {
 		Job johnsJob = new Job(63203.2, "Chicago", 10);
 		Family samsFamily = new Family(4, "Richard", 1);
 		Family johnsFamily = new Family(7, "Tom", 4);
-		Person sam = new Person("Sam", samsJob, samsFamily);
-		Person john = new Person("John", johnsJob, johnsFamily);
+		Person_MainProgram sam = new Person_MainProgram("Sam", samsJob, samsFamily);
+		Person_MainProgram john = new Person_MainProgram("John", johnsJob, johnsFamily);
 		sam.fetchJobDetails();
 		System.out.println("*****************************************************************************");
 		sam.fetchFamilyDetails();
@@ -26,7 +33,7 @@ public class Person {
 		System.out.println("*****************************************************************************");
 	}
 
-	public Person(String name, Job job, Family family) {
+	public Person_MainProgram(String name, Job job, Family family) {
 		this.name = name;
 		this.job = job;
 		this.family = family;

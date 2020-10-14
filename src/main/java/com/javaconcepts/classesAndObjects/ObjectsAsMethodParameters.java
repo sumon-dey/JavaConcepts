@@ -1,6 +1,11 @@
-/*Passing objects as method parameters*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Passing objects as method parameters
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class ObjectsAsMethodParameters {
 
 	public static void main(String[] args) {

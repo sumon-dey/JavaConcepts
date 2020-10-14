@@ -1,4 +1,3 @@
-/*Inheritance*/
 package com.javaconcepts.inheritance;
 
 public class Cat extends Animal {

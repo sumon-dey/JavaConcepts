@@ -1,7 +1,14 @@
-/*"Super" can be of two forms - the first one for the superclass' constructor and the second one to 
- * access the superclass' members (fields and methods)*/
 package com.javaconcepts.inheritance;
 
+/**
+ * Super:
+ * 
+ * "Super" can be of two forms - the first one for the superclass' constructor
+ * and the second one to access the superclass' members (fields and methods)
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class Super {
 
 	public static void main(String[] args) {

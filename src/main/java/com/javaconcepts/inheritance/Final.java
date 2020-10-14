@@ -1,6 +1,11 @@
-/*final keyword and Object class*/
 package com.javaconcepts.inheritance;
 
+/**
+ * final keyword and Object class
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class Final {
 
 	public static void main(String[] args) {

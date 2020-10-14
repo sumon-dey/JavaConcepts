@@ -1,6 +1,11 @@
-/*Default Constructor and Parameterized Constructor*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Default Constructor and Parameterized Constructor
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class Constructor {
 
 	public static void main(String[] args) {

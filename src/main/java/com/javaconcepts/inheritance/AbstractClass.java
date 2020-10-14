@@ -1,7 +1,16 @@
-/*Abstract classes are used to define method which they do not implement but forces their subclasses to implement*/
-/*Object instances of Abstract class cannot be created since the created object will not contain complete information*/
 package com.javaconcepts.inheritance;
 
+/**
+ * Abstract Class:
+ * 
+ * Abstract classes are used to define method which they do not implement but
+ * forces their subclasses to implement. Object instances of Abstract class
+ * cannot be created since the created object will not contain complete
+ * information.
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class AbstractClass {
 
 	public static void main(String[] args) {

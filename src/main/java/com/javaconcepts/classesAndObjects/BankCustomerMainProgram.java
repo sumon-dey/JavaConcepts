@@ -1,7 +1,12 @@
-/*Classes, Objects and Constructors Demo*/
 package com.javaconcepts.classesAndObjects;
 
-public class BankCustomer {
+/**
+ * Classes, Objects and Constructors Demo
+ * 
+ * @author Sumon Dey
+ *
+ */
+public class BankCustomerMainProgram {
 
 	public static void main(String[] args) {
 		BankA customerSam = new BankA();

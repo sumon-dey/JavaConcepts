@@ -1,8 +1,13 @@
-/*Comparison between Primitive Data Types and Reference Data Types*/
 package com.javaconcepts.dataTypes;
 
 import java.util.Arrays;
 
+/**
+ * Comparison between Primitive Data Types and Reference Data Types
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class ReferenceVsPrimitiveDateTypes {
 	/*
 	 * Reference Data Types includes Annotation, Array, Class, Enumeration and

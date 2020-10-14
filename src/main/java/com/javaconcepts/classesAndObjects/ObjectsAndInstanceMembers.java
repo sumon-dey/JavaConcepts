@@ -1,6 +1,11 @@
-/*Objects and Instance Members (Instance Variables and Instance Methods)*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Objects and Instance Members (Instance Variables and Instance Methods)
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class ObjectsAndInstanceMembers {
 	public static void main(String[] args) {
 		Box myGiftBox1 = new Box();

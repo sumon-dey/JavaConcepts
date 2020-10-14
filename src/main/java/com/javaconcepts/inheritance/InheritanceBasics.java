@@ -1,6 +1,15 @@
-/*Basics of Inheritance - Superclass and Subclass*/
 package com.javaconcepts.inheritance;
 
+/**
+ * Inheritance:
+ * 
+ * Inheritance is the mechanism by which one object acquires the properties of
+ * another object thereby supporting the concept of hierarchical classification.
+ * The base of the Inheritance concept lies in "Superclass" and "Subclass".
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class InheritanceBasics {
 
 	public static void main(String[] args) {

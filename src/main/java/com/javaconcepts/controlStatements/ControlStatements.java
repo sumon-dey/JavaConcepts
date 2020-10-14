@@ -1,8 +1,18 @@
-/*Control Statements*/
 package com.javaconcepts.controlStatements;
 
 import java.util.Scanner;
 
+/**
+ * Control Statements:
+ * 
+ * Control Statements directs the flow of execution to advance and branch based
+ * on changes to the state of the program. Control Statements in Java can be put
+ * into the following 3 categories: 1) Selection 2) Iteration 3) Jump
+ * 
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class ControlStatements {
 
 	public static void main(String[] args) {

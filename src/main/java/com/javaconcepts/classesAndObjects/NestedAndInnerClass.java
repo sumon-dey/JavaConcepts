@@ -1,9 +1,16 @@
-/*Nested and Inner Classes*/
-/*Nested Classes are classes within a class. Nested Classes can be both static and non-static. Static Nested Classes
- * are seldom used since they cannot access non-static members of the outer classes. Non-Static Nested Classes are 
- * known as Inner Classes*/
 package com.javaconcepts.classesAndObjects;
 
+/**
+ * Nested and Inner Classes:
+ * 
+ * Nested Classes are classes within a class. Nested Classes can be both static
+ * and non-static. Static Nested Classes are seldom used since they cannot
+ * access non-static members of the outer classes. Non-Static Nested Classes are
+ * known as Inner Classes.
+ * 
+ * @author Sumon Dey
+ *
+ */
 public class NestedAndInnerClass {
 
 	public static void main(String[] args) {

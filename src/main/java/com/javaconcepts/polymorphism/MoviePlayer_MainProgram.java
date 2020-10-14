@@ -1,10 +1,16 @@
-/*Polymorphism*/
 package com.javaconcepts.polymorphism;
 
-/*Polymorphism is an OOP concept which allows actions to act
- * differently based on the actual objects that the action is 
- * being performed on.*/
-public class MoviePlayer {
+/**
+ * Polymorphism:
+ * 
+ * It is an OOP (Object Oriented Programming) concept which allows actions to
+ * act differently based on the actual objects that the action is being
+ * performed on.
+ * 
+ * @author Sumon Dey
+ *
+ */
+public class MoviePlayer_MainProgram {
 
 	public static void main(String[] args) {
 

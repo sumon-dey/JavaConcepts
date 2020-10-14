@@ -1,25 +1,20 @@
-/*Annotation - Java feature that enables us to embed supplemental information into a source file*/
-/*All annotation automatically extend the "Annotation" interface*/
-/*Annotations can be applied to classes, methods, fields, parameters and enum constants*/
-/*Java Build-in Annotations
- * (From java.lang.annotation)
- * Retention
- * Documented
- * Target
- * Inherited
- * Repeatable
- * Native
- * (From java.lang)
- * Override
- * Deprecated
- * SuppressWarnings
- * FunctionalInterface
- * SafeVarargs*/
 package com.javaconcepts.annotation;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Annotation - Java feature that enables us to embed supplemental information
+ * into a source file. All annotation automatically extend the "Annotation"
+ * interface. Annotations can be applied to classes, methods, fields, parameters
+ * and enum constants. Java Build-in Annotations (From java.lang.annotation)
+ * are:- Retention, Documented, Target, Inherited, Repeatable, Native (From
+ * java.lang), Override, Deprecated, SuppressWarnings, FunctionalInterface,
+ * SafeVarargs.
+ * 
+ * @author Sumon Dey
+ * 
+ */
 @CustomAnnotation2
 public class CustomAnnotationDemo {
 
