@@ -15,10 +15,57 @@ repositories {
 
 dependencies {
    testCompile group: 'junit', name: 'junit', version: '4.13'
+   testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.9'
    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.9'
    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9.1'
 }
+
+// For JUnit
+// to execute the below task, run the command "gradle clean testFunctional"
+//task testFunctional(type: Test) {  
+//    useJUnit {
+//        includeCategories 'com.testautomation.junit.FunctionalGroupTests1'
+//        includeCategories 'com.testautomation.junit.FunctionalGroupTests2'
+//        excludeCategories 'com.testautomation.junit.IntegrationTests'
+//        excludeCategories 'com.testautomation.junit.SanityTests'
+//        testLogging.showStandardStreams=true
+//    }
+//}
+
+// to execute the below task, run the command "gradle clean testIntegrationSanity"
+//task testIntegrationSanity(type: Test) {  
+//    useJUnit {
+//        includeCategories 'com.testautomation.junit.IntegrationTests'
+//        includeCategories 'com.testautomation.junit.SanityTests'
+//        excludeCategories 'com.testautomation.junit.FunctionalGroupTests1'
+//        excludeCategories 'com.testautomation.junit.FunctionalGroupTests2'
+//        testLogging.showStandardStreams=true
+//    }
+//}
+
+// For TestNG
+// run with the command 'gradle clean test' in CLI 
+//test { 
+//this tells Gradle to use TestNG
+// useTestNG() { 
+       // this tells TestNG to execute its default reporting structure
+//       useDefaultListeners = true 
+//       testLogging.showStandardStreams=true
+ //      // location of testng.xml
+ //      suites 'src/test/java/com/testautomation/testng/testng.xml' 
+ // }
+//}
+
+// run with the command 'gradle clean smokeTests' in CLI 
+//task smokeTests(type: Test) { 
+//   useTestNG() {
+ //      useDefaultListeners = true
+ //      testLogging.showStandardStreams=true
+ //      suites 'src/test/java/com/testautomation/testng/testng.xml'
+ //      includeGroups 'Smoke'
+ //  }
+//}
 
 

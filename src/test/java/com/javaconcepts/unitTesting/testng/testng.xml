@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- value of the "parallel" property can be tests, methods, classes, instances -->
+<suite name="Test Automation Suite" parallel="methods"
+	thread-count="5">
+
+	<!-- <listeners> <listener class-name="com.testautomation.ExtentReporterNG" 
+		/> </listeners> -->
+
+
+	<test name="Different TestNG Feature Test">
+		<!-- Defining the parameters which will be referenced in the source files -->
+		<parameter name="name1" value="value1" />
+		<parameter name="name2" value="value2" />
+		<!-- Defining the groups -->
+		<groups>
+			<!-- <define name="all"> <include name="Smoke" /> <include name="Regression" 
+				/> </define> -->
+			<!-- To exclude a particular group from execution -->
+			<!-- <groups><run> <exclude name="Smoke" /> </run> </groups> -->
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testautomation.testng.TestNGDemo1">
+				<!-- To exclude a particular test method from execution -->
+				<!-- <methods> <exclude name="test2" /> </methods> -->
+				<!-- To exclude a particular test method from execution (using Regular 
+					Expression) -->
+				<!-- <methods> <exclude name=".*test2.*" /> </methods> -->
+			</class>
+			<class name="com.testautomation.testng.TestNGDemo2" />
+			<class name="com.testautomation.testng.TestNGParameters" />
+			<class name="com.testautomation.testng.TestNGPriorityAndGroups" />
+		</classes>
+	</test>
+</suite> 

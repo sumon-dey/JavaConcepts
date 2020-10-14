@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Preserve Order -->
+<suite name="Test Automation Suite">
+	<!-- preserve-order="true" for running in the given sequence and preserve-order="false" 
+		for running in alphabetical order (this is default setting) -->
+	<test name="Automated Tests" preserve-order="true">
+		<classes>
+			<class name="com.testautomation.testng.TestNGDemo2" />
+			<class name="com.testautomation.testng.TestNGDemo3" />
+			<class name="com.testautomation.testng.TestNGDemo1" />
+		</classes>
+	</test>
+</suite> 

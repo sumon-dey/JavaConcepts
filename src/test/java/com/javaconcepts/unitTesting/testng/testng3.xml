@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- The "verbose" attribute tells what kind of information are we getting 
+	in the console -->
+<!-- The value of the "verbose" attribute ranges from 1 to 10 -->
+<suite name="Verbose Test Automation Suite" verbose="5">
+	<test name="Verbose Tests" thread-count="5">
+		<classes>
+			<class name="com.testautomation.testng.TestNGVerbose" />
+		</classes>
+	</test>
+</suite> 

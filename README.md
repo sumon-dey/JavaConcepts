@@ -84,7 +84,6 @@ void forLoop() {
 $ git clone 
 $ cd 
 $ import project from Eclipse as a gradle project
-$ gradle clean build
 ```
 ***
 
