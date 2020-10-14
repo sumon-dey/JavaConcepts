@@ -7,6 +7,8 @@
 ###  :earth_asia: Introduction
 This is a repository consisting of code and important information on most of the Core Java Language Features and Standard Class Libraries, ranging from basic data types to advanced topics. 
 
+![JavaConcepts Demo](images/JavaConcepts.gif)
+
 ***
 
 ###  :computer: Supported JDK Version
