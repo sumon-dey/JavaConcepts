@@ -11,6 +11,7 @@ This is a repository consisting of code and important information on most of the
 
 ###  :computer: Supported JDK Version
 The Java features upto JDK9 have been covered. Preferred JDK versions to use - **_JDK8_** or **_JDK9_**.
+Note: If JDK8 is used, then the exclusive JDK9 features won't work (e.g. private methods inside an interface)
 
 ***
 
