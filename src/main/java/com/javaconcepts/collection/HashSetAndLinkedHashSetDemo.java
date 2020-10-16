@@ -28,9 +28,9 @@ public class HashSetAndLinkedHashSetDemo {
 		myHashSet.add("Cricket");
 		myHashSet.add("Football");
 		myHashSet.add("Hockey");
-		myHashSet.add("Badmintor");
+		myHashSet.add("Badminton");
 		myHashSet.add("Tennis");
-		System.out.println("Contens of myHashSet: " + myHashSet);
+		System.out.println("Contents of myHashSet: " + myHashSet);
 		System.out.println("*************************************************************");
 
 		// LinkedHashSet -> It maintains a linked list of the entries in the Set in the order in which they were inserted.
@@ -38,9 +38,9 @@ public class HashSetAndLinkedHashSetDemo {
 		myLinkedHashSet.add("Cricket");
 		myLinkedHashSet.add("Football");
 		myLinkedHashSet.add("Hockey");
-		myLinkedHashSet.add("Badmintor");
+		myLinkedHashSet.add("Badminton");
 		myLinkedHashSet.add("Tennis");
-		System.out.println("Contens of myLinkedHashSet: " + myLinkedHashSet);
+		System.out.println("Contents of myLinkedHashSet: " + myLinkedHashSet);
 		System.out.println("*************************************************************");
 	}
 
