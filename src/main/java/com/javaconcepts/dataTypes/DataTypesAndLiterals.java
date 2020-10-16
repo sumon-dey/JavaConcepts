@@ -25,7 +25,7 @@ public class DataTypesAndLiterals {
 		 * Integers: They are whole valued signed numbers (positive and negative). The
 		 * Integer literals can be in the form of decimal(Base 10, e.g.1,2,3),
 		 * octal(Base 8, e.g. 07,02), Binary(e.g. OB1010) and Hexadecimal (Base 16, e.g.
-		 * 0A0F).
+		 * 0X0A0F).
 		 */
 
 		/*
@@ -71,14 +71,18 @@ public class DataTypesAndLiterals {
 		 * During compilation, the underscores are ignored. They cannot be used at the
 		 * beginning or at the end of the literals, but can be used in-between.
 		 */
-		int myIntValue1 = 37728892;
-		int myIntValue2 = 123_456_789; // Integer literal using underscores
-		int myIntValue3 = 123__456__789; // Integer literal using underscores
-		int myIntValue4 = 0b1010; // integer literal using binary
+		int myIntValue1 = 37728892; // Integer literal in Decimal
+		int myIntValue2 = 123_456_789; // Integer literal with underscores
+		int myIntValue3 = 123__456__789; // Integer literal with adjacent underscores
+		int myIntValue4 = 0b1010; // Integer literal in Binary
+		int myIntValue5 = 03; // // Integer literal in Octal
+		int myIntValue6 = 0X0A0F; // // Integer literal in Hexadecimal
 		System.out.println("myIntValue1: " + myIntValue1);
 		System.out.println("myIntValue2: " + myIntValue2);
 		System.out.println("myIntValue3: " + myIntValue3);
 		System.out.println("myIntValue4: " + myIntValue4);
+		System.out.println("myIntValue5: " + myIntValue5);
+		System.out.println("myIntValue6: " + myIntValue6);
 		System.out.println("*********************************************");
 
 		/*
@@ -86,8 +90,10 @@ public class DataTypesAndLiterals {
 		 * 9,223,372,036,854,775,807). Need to append "L" or "l" at the end of the
 		 * literal to specify as long.
 		 */
-		long myLongValue = 332238487574374L;
-		System.out.println("myLongValue: " + myLongValue);
+		long myLongValue1 = 332238487574374L;
+		long myLongValue2 = 33223__8487_574374L;
+		System.out.println("myLongValue1: " + myLongValue1);
+		System.out.println("myLongValue2: " + myLongValue2);
 		System.out.println("*********************************************");
 	}
 
@@ -146,7 +152,8 @@ public class DataTypesAndLiterals {
 
 		/* Conversion of double to float with 3 significant digits after decimal */
 		double doubleValueToConvert = 41.746380532;
-		System.out.println(String.format("%.3f", doubleValueToConvert));
+		System.out.println("Value after conversion from double to float (upto precision of 6 decimal points): "
+				+ String.format("%.6f", doubleValueToConvert));
 		System.out.println("*********************************************");
 	}
 
