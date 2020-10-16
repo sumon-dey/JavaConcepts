@@ -41,8 +41,12 @@ public class DataTypesAndLiterals {
 		 * "byte", "short" and "char" do not have any specific suffices.
 		 */
 
-		byte myByteValue = 127;
-		System.out.println("myByteValue: " + myByteValue);
+		byte myByteValue1 = 127;
+		byte myByteValue2 = -128;
+		byte myByteValue3 = 22;
+		System.out.println("myByteValue1: " + myByteValue1);
+		System.out.println("myByteValue2: " + myByteValue2);
+		System.out.println("myByteValue3: " + myByteValue3);
 		System.out.println("*********************************************");
 
 		/* short (takes 16-bits storage and value ranges from -32768 to 32767) */
