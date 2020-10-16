@@ -50,8 +50,12 @@ public class DataTypesAndLiterals {
 		System.out.println("*********************************************");
 
 		/* short (takes 16-bits storage and value ranges from -32768 to 32767) */
-		short myShortValue = 32767;
-		System.out.println("myShortValue: " + myShortValue);
+		short myShortValue1 = 32767;
+		short myShortValue2 = -32768;
+		short myShortValue3 = 452;
+		System.out.println("myShortValue1: " + myShortValue1);
+		System.out.println("myShortValue2: " + myShortValue2);
+		System.out.println("myShortValue3: " + myShortValue3);
 		System.out.println("*********************************************");
 
 		/*
