@@ -3,8 +3,8 @@ package com.javaconcepts.operators;
 
 public class JavaOperators {
 	/*
-	 * Java Operators are used to perform operations on Variables and Values.
-	 * The Value is called the "Operand" and the operation performed between the
+	 * Java Operators are used to perform operations on Variables and Values. The
+	 * Value is called the "Operand" and the operation performed between the
 	 * operands is defined by the Java Operators.
 	 */
 	public static void main(String[] args) {
@@ -23,8 +23,8 @@ public class JavaOperators {
 	// instanceOf operator
 	private static void instanceOfOperator() {
 		/*
-		 * Type Checking - to check if an object is an instance of a class, a
-		 * subclass or an interface.
+		 * Type Checking - to check if an object is an instance of a class, a subclass
+		 * or an interface.
 		 */
 		JavaOperators javaOperators = new JavaOperators();
 		System.out.println(javaOperators instanceof JavaOperators);
@@ -46,8 +46,24 @@ public class JavaOperators {
 
 	// bitwise operator 1 (Encoding used in 2's complement)
 	private static void bitwiseOperator1() {
-		// Java defines several bitwise operators that can be applied to the
-		// integer types (byte, short, int, long, char)
+		// Java defines several bitwise operators which can be used to manipulate the
+		// bits of the integer data types (byte, short, int, long, char)
+
+		// Different bitwise operators are as follows:
+		// bitwise NOT operator (~)
+		// bitwise OR operator (|)
+		// bitwise AND operator (&)
+		// bitwise XOR operator (^)
+		// bitwise shift right operator (>>)
+		// bitwise shift right zero fill operator (>>>)
+		// bitwise shift left operator (<<)
+		// bitwise OR assignment operator (|=)
+		// bitwise AND assignment operator (&=)
+		// bitwise XOR assignment operator (^=)
+		// bitwise shift right assignment operator (>>=)
+		// bitwise shift right zero fill assignment operator (>>>=)
+		// bitwise shift left assignment operator (<<=)
+
 		/* Bitwise AND (&) - returns bit by bit AND of input values */
 		int a = 0x0005;
 		int b = 0x0007;
@@ -57,8 +73,8 @@ public class JavaOperators {
 		/* Bitwise XOR (^) - returns bit by bit XOR of input values */
 		System.out.println("a^b = " + (a ^ b));
 		/*
-		 * Bitwise Complement (~) - returns the one’s compliment representation
-		 * of the input value
+		 * Bitwise Complement (~) - returns the one’s compliment representation of the
+		 * input value
 		 */
 		System.out.println("~a = " + ~a);
 		System.out.println("***************************************************************");
@@ -88,8 +104,8 @@ public class JavaOperators {
 	// ternary or conditional operator
 	private static void ternaryOrConditionalOperator() {
 		/*
-		 * It is a short-hand version of if-else statement and consists of 3
-		 * operands (hence called ternary)
+		 * It is a short-hand version of if-else statement and consists of 3 operands
+		 * (hence called ternary)
 		 */
 		int myIntValue1 = 732;
 		int myIntValue2 = 53;
