@@ -50,7 +50,7 @@ public class JavaOperators {
 		// bits of the integer data types (byte, short, int, long, char)
 
 		// Different bitwise operators are as follows:
-		// bitwise NOT operator (~)
+		// bitwise NOT operator (~) (also known as bitwise complement operator)
 		// bitwise OR operator (|)
 		// bitwise AND operator (&)
 		// bitwise XOR operator (^)
@@ -63,6 +63,14 @@ public class JavaOperators {
 		// bitwise shift right assignment operator (>>=)
 		// bitwise shift right zero fill assignment operator (>>>=)
 		// bitwise shift left assignment operator (<<=)
+
+		byte myByte1 = 42;
+		byte myByte2 = 15;
+		System.out.println(~myByte1);
+		System.out.println(myByte1 | myByte2);
+		System.out.println(myByte1 & myByte2);
+		System.out.println(myByte1 ^ myByte2);
+		System.out.println(42 << 3); // ....00101010 -> ...101010000
 
 		/* Bitwise AND (&) - returns bit by bit AND of input values */
 		int a = 0x0005;
