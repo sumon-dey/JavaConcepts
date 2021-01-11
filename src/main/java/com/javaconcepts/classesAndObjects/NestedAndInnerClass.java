@@ -6,7 +6,8 @@ package com.javaconcepts.classesAndObjects;
  * Nested Classes are classes within a class. Nested Classes can be both static
  * and non-static. Static Nested Classes are seldom used since they cannot
  * access non-static members of the outer classes. Non-Static Nested Classes are
- * known as Inner Classes.
+ * known as Inner Classes and can access both static and non-static members of
+ * the outer class.
  * 
  * @author Sumon Dey
  *
