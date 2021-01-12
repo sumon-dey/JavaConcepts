@@ -4,10 +4,10 @@ package com.javaconcepts.methods;
 public class MethodOverloading {
 	/*
 	 * Classes having multiple methods with the same name, but having different
-	 * parameters, will feature the concept of "Method Overloading". If two or
-	 * more methods are having parameter/parameters of same data type, in the
-	 * same sequence, then compilation error will be thrown by the Java
-	 * Compiler.
+	 * types or/and number of parameters, will feature the concept of
+	 * "Method Overloading". If two or more methods are having no parameter or
+	 * parameter/parameters of same data type, in the same sequence, then
+	 * compilation error will be thrown by the Java Compiler.
 	 */
 	private static double minimumDistanceToWalk = 2.3;
 
