@@ -7,11 +7,11 @@ public class SuperClass {
 	}
 
 	public void method2() {
-		System.out.println("Inside method1 of superclass");
+		System.out.println("Inside method2 of superclass");
 	}
 
 	public void method3() {
-		System.out.println("Inside method1 of superclass");
+		System.out.println("Inside method3 of superclass");
 	}
 
 }
