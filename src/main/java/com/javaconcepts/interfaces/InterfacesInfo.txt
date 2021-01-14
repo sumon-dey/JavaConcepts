@@ -21,3 +21,7 @@
    methods" have also been introduced.
    
 9) JDK9 has introduced "private methods" inside an interface.
+
+10) "Marker Interfaces" are interfaces which are empty and are used to inform the JVM that the 
+     class implementing such an interface will have some special behavior. Examples of Java built-in 
+     marker interfaces are Serializable, Cloneable and Remote.

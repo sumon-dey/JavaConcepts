@@ -4,20 +4,22 @@
 2) All annotation automatically extend the "Annotation" interface. 
 
 3) Annotations can be applied to classes, methods, fields, parameters
-  and enum constants. Even an annotation can annotated. 
+  and enum constants. 
+  Even an annotation can be annotated. 
   
 4) A "Marker Annotation" is a special kind of annotation containing no members.
    A "Single Member Annotation" contains only one member.
    A "Type Annotation" enables tools to perform additional checks on code to help prevent errors. It
-   must include ElementType.TYPE_USE as a target.
+   must include "ElementType.TYPE_USE" as a target.
    A "Repeating Annotation" is an annotation that can be repeated on the same element and it is annotated
    with the "@Repeatable" annotation.
   
-5) Java Build-in Annotations (From java.lang.annotation) are:- 
+5) Java built-in Annotations (From the "java.lang.annotation" package) are:- 
    @Retention (specifies the Retention policy), 
    @Documented (marker annotation which tells a tool that an annotation is to be documented), 
-   @Target (specifies the type of items to which an annotation can be applied), 
-   @Inherited (marker annotation, can be used only on another annotation declaration), 
+   @Target (specifies the type of Java elements to which an annotation can be applied), 
+   @Inherited (marker annotation which specifies that the annotation used in a class should be inherited 
+               by subclasses inheriting from that class, can be used only on another annotation declaration), 
    @Repeatable, 
    @Native (From java.lang), 
    @Override (marker annotation, can be used only on methods), 
@@ -26,8 +28,9 @@
    @FunctionalInterface (marker annotation designed for use on interfaces),
    @SafeVarargs (marker annotation that can be applied to methods and constructors)
    
-6) A Retention Policy determines at what point an annotation is discarded. Java defines 3 such policies
-   encapsulated within the java.lang.annotation.RetentionPolicy enum. Those are "SOURCE", "CLASS" and "RUNTIME".
+6) A Retention Policy determines at what point an annotation is retained and at what point it is discarded. 
+   Java defines 3 such policies encapsulated within the java.lang.annotation.RetentionPolicy enum. 
+   Those are "SOURCE", "CLASS" and "RUNTIME".
   
 7) Various Annotation Element Types and where they can be applied to:
    ANNOTATION_TYPE -> another annotation
