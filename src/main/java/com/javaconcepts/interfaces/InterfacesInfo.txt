@@ -11,16 +11,19 @@
 4) 1 interface can be implemented by multiple classes.
    1 class can implement multiple interfaces.
    
-5) Interfaces are designed to support "Dynamic Method Resolution" at runtime.
+5) Interfaces are designed to support "Dynamic Method Resolution" or "Dynamic Method Dispatch" at runtime.
+   "Dynamic Method Resolution" or "Dynamic Method Dispatch" means that at runtime, based on the reference 
+   type and the object, it is decided/resolved which method to invoke by the calling object.
 
-6) The access modifiers for interfaces can be "default" or "public". 
+6) The access modifiers for interfaces can be "default"/"public" (not "protected" or "private")
 
-7) Interfaces can consist of both abstract and non-abstract(known as "default") methods.
+7) Interfaces can consist of both abstract and non-abstract(known as "default") methods (after Java8)
 
 8) With the introduction of JDK8, "default method (method implementation)" and "static interface
    methods" have also been introduced.
    
-9) JDK9 has introduced "private methods" inside an interface.
+9) JDK9 has introduced "private methods" inside an interface. A "private method" inside an interface 
+   is primarily used to provide some common code to the static or default methods of the same interface.
 
 10) "Marker Interfaces" are interfaces which are empty and are used to inform the JVM that the 
      class implementing such an interface will have some special behavior. Examples of Java built-in 
