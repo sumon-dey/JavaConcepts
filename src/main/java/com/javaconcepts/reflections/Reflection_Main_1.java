@@ -64,7 +64,7 @@ public class Reflection_Main_1 {
 	 * Extracting information about the methods of the Person class at runtime
 	 */
 	@Test
-	public void extractMethodnfo() {
+	public void extractMethodInfo() {
 		System.out.println("**************************************************");
 		System.out.println("Extract Method Information");
 		System.out.println("**************************************************");
@@ -101,6 +101,9 @@ public class Reflection_Main_1 {
 		System.out.println(Modifier.isPublic(personClassModifiers));
 		System.out.println(Modifier.isAbstract(personClassModifiers));
 		System.out.println(Modifier.isPrivate(personClassModifiers));
+		System.out.println(Modifier.isFinal(personClassModifiers));
+		System.out.println(Modifier.isProtected(personClassModifiers));
+		System.out.println(Modifier.isStatic(personClassModifiers));
 	}
 
 	/* Extract the package name of a class or object at runtime */

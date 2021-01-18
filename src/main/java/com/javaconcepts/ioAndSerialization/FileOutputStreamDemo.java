@@ -13,8 +13,8 @@ public class FileOutputStreamDemo {
 		FileInputStream fis = null;
 		FileOutputStream fos = null;
 		try {
-			File inputFile = new File("./src/ioAndSerialization/SampleTextFile2.txt");
-			File outputFile = new File("./src/ioAndSerialization/SampleTextFile3.txt");
+			File inputFile = new File("./src/main/java/com/javaconcepts/ioAndSerialization/SampleTextFile2.txt");
+			File outputFile = new File("./src/main/java/com/javaconcepts/ioAndSerialization/SampleTextFile3.txt");
 			fis = new FileInputStream(inputFile);
 			fos = new FileOutputStream(outputFile);
 			do {

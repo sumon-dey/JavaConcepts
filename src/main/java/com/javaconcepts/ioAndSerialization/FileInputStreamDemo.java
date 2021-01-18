@@ -1,9 +1,11 @@
 package com.javaconcepts.ioAndSerialization;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class FileInputStreamDemo {
 
@@ -11,10 +13,12 @@ public class FileInputStreamDemo {
 		int i;
 		FileInputStream fis = null;
 		try {
-			File file = new File("./src/ioAndSerialization/SampleTextFile2.txt");
+			File file = new File("./src/main/java/com/javaconcepts/ioAndSerialization/SampleTextFile2.txt");
 			fis = new FileInputStream(file);
+			InputStreamReader inputStreamReader = new InputStreamReader(fis);
+			BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 			do {
-				i = fis.read(); // reads a byte of data from the input stream
+				i = bufferedReader.read(); // reads a byte of data from the input stream
 				if (i != -1) {
 					System.out.print((char) i);
 				}
