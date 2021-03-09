@@ -20,6 +20,9 @@ public class VariablesAndBlocks {
 	private int weightOfPerson; // instance or member variable
 
 	public static void main(String[] args) {
+		// The below line will throw compile error since a static variable cannot be
+		// declared inside a method
+		// static int staticVariableInsideMethod = 2;
 		VariablesAndBlocks obj1 = new VariablesAndBlocks();
 		obj1.setWeightOfPerson(210);
 		obj1.biometrics(true);
