@@ -7,10 +7,10 @@ package com.javaconcepts.dataTypes;
  * If the data types are compatible and the destination data type is larger than
  * the source data type, then "Automatic Type Conversion(Widening Type
  * Conversion/Implicit Type Casting)" takes place e.g. from byte to int. But if
- * the data types are not compatible with each other, then "Data Type
- * Casting(Narrowing Type Conversion/Explicit Type Casting)" has to be used to
- * explicitly convert from one data type to another e.g. int to byte, int to
- * String etc.
+ * the data types are not compatible with each other or the destination data
+ * type is smaller than the source data type, then "Data Type Casting(Narrowing
+ * Type Conversion/Explicit Type Casting)" has to be used to explicitly convert
+ * from one data type to another e.g. int to byte, int to String etc.
  * 
  * @author Sumon Dey
  *
