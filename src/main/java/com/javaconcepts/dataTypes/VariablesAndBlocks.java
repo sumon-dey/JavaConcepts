@@ -7,9 +7,10 @@ package com.javaconcepts.dataTypes;
  * the value while the Java program is being executed. Java variables are of 3
  * types - 1) Instance (Member) Variables 2) Static (Class) Variables 3) Local
  * Variables. A variable is defined by the combination of a type (Primitive Data
- * Type, Class or Interface), an identifier (variable name) and an optional
- * initializer. All variables have a "scope" (defined by a block with curly
- * braces) which defines their lifetime and visibility.
+ * Type, Reference Data Type (Class,Interface,Array,Annotation,Enum), an
+ * identifier (variable name) and an optional initializer. All variables have a
+ * "scope" (defined by a block with curly braces) which defines their lifetime
+ * and visibility.
  * 
  * @author Sumon Dey
  *
